@@ -59,7 +59,7 @@ function CalendarCard() {
             Ngày 08 tháng 09 năm 2024 (Dương lịch)
           </CS.CommonSubTitleLong>
           <CS.CommonSubTitleLong>
-            Lễ cưới <a>Tiến Mạnh ❤ Sao Mai</a> {commentLeftDays} <a>{absDiffDays} ngày</a>.
+            Lễ cưới <a>Tiến Mạnh 🩷 Sao Mai</a> {commentLeftDays} <a>{absDiffDays} ngày</a>.
           </CS.CommonSubTitleLong>
         </CS.CommonTextContainer>
         <S.CalendarContainer>

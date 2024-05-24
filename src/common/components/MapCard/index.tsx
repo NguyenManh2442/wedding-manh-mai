@@ -109,7 +109,7 @@ function MapCard() {
     <CS.CommonContainer>
       <CS.HorizontalBar />
       <CS.CommonMargin margin="40px" />
-      <CS.CommonTitle>Map</CS.CommonTitle>
+      <CS.CommonTitle>ADDRESS</CS.CommonTitle>
       <CS.CommonBody>
         <CS.CommonTextContainer>
           <CS.CommonP>

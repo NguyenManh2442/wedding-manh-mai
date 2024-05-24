@@ -53,13 +53,13 @@ function FloatingShare({ showAccount = false }: FloatingShareProps) {
         width="40px"
       >
         <a
-          href="https://www.facebook.com/messages/t/100004787133054"
+          href="https://www.m.me/100004787133054"
           target="_blank"
           rel="Tiến Mạnh"
         >
           <CS.MainImg
 
-            src="/images/share/blue-message-icon2.png"
+            src="/images/share/blue-message-icon.png"
             alt="Logo message"
           />
         </a>
@@ -68,7 +68,7 @@ function FloatingShare({ showAccount = false }: FloatingShareProps) {
         width="40px"
       >
         <a
-          href="https://www.facebook.com/messages/t/100005123344946"
+          href="https://www.m.me/100005123344946"
           target="_blank"
           rel="Sao Mai"
         >

@@ -30,14 +30,14 @@ export const FlowerCardPBold = styled.p`
 `;
 
 export const FlowerCardP = styled.p`
-  font-size: 0.7rem;
-
-  line-height: 0.5rem;
+  font-size: 0.8rem;
+  margin-left: 15px;
+  margin-top: 5px;
+  line-height: 20px;
 `;
 
 export const FlowerCardTd = styled.td`
-  width: 65%;
-
+  width: 100%;
   color: black;
   text-align: left;
 `;
