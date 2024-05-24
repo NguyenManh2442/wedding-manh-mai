@@ -26,10 +26,10 @@ function Home() {
     <>
       <MainCard />
       <Invitation />
-      <Contact />
-      <Gallery />
       <CalendarCard />
+      <Gallery />
       <MapCard />
+      <Contact />
       {showAccount && <Account />}
       <FlowerCard />
       <GuestBook />

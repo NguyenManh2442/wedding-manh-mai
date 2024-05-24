@@ -51,30 +51,33 @@ function FloatingShare({ showAccount = false }: FloatingShareProps) {
     <S.FloatingShareContainer>
       <CS.ImageContainer
         width="40px"
-        onClick={() => {
-          shareKakao(shareUrlAddress);
-        }}
       >
-        <CS.MainImg
-          src="/images/share/kakao-talk-circle.png"
-          alt="kakao talk"
-        />
+        <a
+          href="https://www.facebook.com/nguyenmanh2442.nt"
+          target="_blank"
+          rel="her husband"
+        >
+          <CS.MainImg
+            src="/images/share/kakao-talk-circle.png"
+            alt="kakao talk"
+          />
+        </a>
       </CS.ImageContainer>
-      <div
-        onClick={() => {
-          copyToClipboard(shareUrlAddress);
-        }}
-        style={{ margin: '0px 0px 0px 4px' }}
+      <br></br>
+      <CS.ImageContainer
+        width="40px"
       >
-        <CircleIcon
-          Icon={LinkIcon}
-          circleSize="40px"
-          topOffset="8px"
-          leftOffset="8px"
-          fontSize="medium"
-          color={color.groomColor}
-        />
-      </div>
+        <a
+          href="https://www.facebook.com/nguyenmanh2442.nt"
+          target="_blank"
+          rel="her husband"
+        >
+          <CS.MainImg
+            src="/images/share/kakao-talk-circle.png"
+            alt="kakao talk"
+          />
+        </a>
+      </CS.ImageContainer>
     </S.FloatingShareContainer>
   );
 }

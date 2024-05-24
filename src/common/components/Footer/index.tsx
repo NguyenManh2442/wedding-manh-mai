@@ -8,21 +8,12 @@ function Footer() {
         <S.FooterBody>
           Created by{' '}
           <a
-            href="https://github.com/finani"
+            href="https://www.facebook.com/nguyenmanh2442.nt"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="her husband"
           >
-            Inhwan
+            ntm
           </a>{' '}
-          and{' '}
-          <a
-            href="https://github.com/kcyoon689"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Chaeyoon
-          </a>
-          .
         </S.FooterBody>
       </CS.CommonBody>
     </CS.CommonContainer>

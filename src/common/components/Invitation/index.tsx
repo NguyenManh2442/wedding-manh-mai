@@ -28,22 +28,14 @@ function Invitation() {
                 backgroundImage="/images/brush_trans_groom_light.png"
                 style={{ padding: '0px 0px 0px 5px' }}
               >
-                <b>Tiến Mạnh</b> &nbsp;Con trai&nbsp;&nbsp;&nbsp;
+                <b>Tiến Mạnh</b> &nbsp;&nbsp;🩷&nbsp;&nbsp;
               </S.InvitationImageTd>
-              <td>
-                <b>Ông bà Long Oanh</b>
-              </td>
-            </tr>
-            <tr>
               <S.InvitationImageTd
                 backgroundImage="/images/brush_trans_bride_light.png"
                 style={{ padding: '0px 0px 0px 5px' }}
               >
-                <b>Sao Mai&nbsp;&nbsp;&nbsp;</b> &nbsp;Con gái&nbsp;&nbsp;&nbsp;&nbsp;
+                <b>Sao Mai</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </S.InvitationImageTd>
-              <td>
-                <b>Ông bà Nhã Nga&nbsp;&nbsp;&nbsp;</b>
-              </td>
             </tr>
           </tbody>
         </CS.CommonTable>

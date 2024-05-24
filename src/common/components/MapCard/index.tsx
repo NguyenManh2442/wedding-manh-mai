@@ -114,7 +114,7 @@ function MapCard() {
         <CS.CommonTextContainer>
           <CS.CommonP>
             <b>
-              [Địa chỉ là trai]{' '}
+              Địa chỉ nhà trai:{' '}
               <a href="https://maps.app.goo.gl/sC5vxCkaYH3zVotY7" target="_blank">
                 Chản Làng - Yên Sơn - Lục Nam - Bắc Giang
               </a>
@@ -122,12 +122,10 @@ function MapCard() {
             </b>
           </CS.CommonP>
         </CS.CommonTextContainer>
-        <S.MapContainer>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1205.67178966748!2d106.3407812533048!3d21.239771218908405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31356ffe72d63cb5%3A0xabe50be3d05cdcf!2zWMaw4bufbmcgTeG7mWMgRMOibiBE4bulbmcgTG9uZyBPYW5o!5e0!3m2!1svi!2s!4v1714916428720!5m2!1svi!2s" width="400" height="300"></iframe>        </S.MapContainer>
         <CS.CommonTextContainer>
           <CS.CommonP>
             <b>
-              [Địa chỉ là gái]{' '}
+              Địa chỉ nhà gái:{' '}
               <a href="https://maps.app.goo.gl/w6PZ3AzYpWwVUW6R7" target="_blank">
                 Nội Chùa - Yên Sơn - Lục Nam - Bắc Giang
               </a>
@@ -135,9 +133,6 @@ function MapCard() {
             </b>
           </CS.CommonP>
         </CS.CommonTextContainer>
-        <S.MapContainer>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25013.661113460457!2d106.34643307265739!3d21.259471613409456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31356f8d2f020997%3A0xb3e6e23f6f4aa85b!2zWcOqbiBTxqFuLCBM4bulYyBOYW0sIELhuq9jIEdpYW5nLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1714915356206!5m2!1svi!2s" width="400" height="300"></iframe>
-        </S.MapContainer>
         <CS.CommonMargin margin="10px" />
         <CS.CommonMargin margin="50px" />
         <CS.CommonSubTitle>지하철 및 셔틀버스 이용시</CS.CommonSubTitle>
@@ -195,7 +190,7 @@ function MapCard() {
           </CS.CommonP>
         </CS.CommonTextContainer>
         <CS.CommonMargin margin="30px" />
-        <CS.CommonSubTitle>자가용 이용시</CS.CommonSubTitle>
+        <CS.CommonSubTitle>Dress code</CS.CommonSubTitle>
         <CS.CommonTextContainer>
           <CS.CommonP>
             <u>
@@ -214,47 +209,6 @@ function MapCard() {
             <br></br>- 디지털로 28길 도로 이용 진입<br></br>- 동시 1400대 주차
             가능<br></br>- 2시간 무료주차 / 10분당 700원
           </CS.CommonP>
-          <CS.CommonTable>
-            <tbody>
-              <tr>
-                <td style={{ padding: '0px 0px 6px 0px' }}>
-                  <a>
-                    <CS.CommonSubSubTitle>내비게이션</CS.CommonSubSubTitle>
-                  </a>
-                </td>
-                <td style={{ padding: '0px 0px 0px 5px' }}>
-                  <CS.ImageContainer width="30px">
-                    <a onClick={navigateNaverMap}>
-                      <CS.MainImg
-                        src="/images/share/naver-map.png"
-                        alt="naver map navigation"
-                      />
-                    </a>
-                  </CS.ImageContainer>
-                </td>
-                <td style={{ padding: '0px 0px 0px 5px' }}>
-                  <CS.ImageContainer width="30px">
-                    <a onClick={navigateKakaoMap}>
-                      <CS.MainImg
-                        src="/images/share/kakao-map-navigation.png"
-                        alt="kakao map navigation"
-                      />
-                    </a>
-                  </CS.ImageContainer>
-                </td>
-                <td style={{ padding: '0px 0px 0px 5px' }}>
-                  <CS.ImageContainer width="30px">
-                    <a onClick={navigateTMap}>
-                      <CS.MainImg
-                        src="/images/share/t-map.svg"
-                        alt="t map navigation"
-                      />
-                    </a>
-                  </CS.ImageContainer>
-                </td>
-              </tr>
-            </tbody>
-          </CS.CommonTable>
         </CS.CommonTextContainer>
         <CS.CommonMargin margin="50px" />
       </CS.CommonBody>
