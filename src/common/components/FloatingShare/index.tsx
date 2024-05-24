@@ -53,28 +53,28 @@ function FloatingShare({ showAccount = false }: FloatingShareProps) {
         width="40px"
       >
         <a
-          href="https://www.facebook.com/nguyenmanh2442.nt"
+          href="https://www.facebook.com/messages/t/100004787133054"
           target="_blank"
-          rel="her husband"
+          rel="Tiến Mạnh"
         >
           <CS.MainImg
-            src="/images/share/kakao-talk-circle.png"
-            alt="kakao talk"
+
+            src="/images/share/blue-message-icon2.png"
+            alt="Logo message"
           />
         </a>
       </CS.ImageContainer>
-      <br></br>
       <CS.ImageContainer
         width="40px"
       >
         <a
-          href="https://www.facebook.com/nguyenmanh2442.nt"
+          href="https://www.facebook.com/messages/t/100005123344946"
           target="_blank"
-          rel="her husband"
+          rel="Sao Mai"
         >
           <CS.MainImg
-            src="/images/share/kakao-talk-circle.png"
-            alt="kakao talk"
+            src="/images/share/pink-messenger-icon.png"
+            alt="Logo message"
           />
         </a>
       </CS.ImageContainer>

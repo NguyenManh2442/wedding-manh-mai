@@ -49,7 +49,6 @@ function GuestBook() {
       return;
     }
 
-    // https://firebase.google.com/docs/firestore/quickstart#add_data
     addDoc(collection(db, 'wedding-posts'), {
       name: trimmedName,
       message: trimmedMessage,
@@ -63,7 +62,7 @@ function GuestBook() {
     <CS.CommonContainer>
       <CS.HorizontalBar />
       <CS.CommonMargin margin="40px" />
-      <CS.CommonTitle>GuestBook</CS.CommonTitle>
+      <CS.CommonTitle>LƯU BÚT</CS.CommonTitle>
       <CS.CommonBody>
         <S.GuestBookPost>
           <form>
@@ -71,7 +70,7 @@ function GuestBook() {
               value={name}
               onChange={(e) => setName(e.target.value)}
               type="text"
-              placeholder="성함"
+              placeholder="Nhập họ tên"
               required
             />
             <br></br>
@@ -79,13 +78,13 @@ function GuestBook() {
             <S.TextArea
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="축하 메시지를 남겨주세요!"
+              placeholder="Nhập lời chúc mừng"
               required
             />
             <br></br>
             <br></br>
             <S.Button onClick={sendPost} type="submit">
-              등록하기
+              Gửi lời chúc
             </S.Button>
           </form>
         </S.GuestBookPost>

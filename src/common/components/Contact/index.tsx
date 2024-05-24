@@ -67,13 +67,13 @@ function Contact() {
             <tr>
               <td colSpan={2}>
                 <CS.CommonSubSubTitle>
-                  Bố của <b>chú rể:</b><br></br><br></br>
+                  Bố <b>chú rể:</b><br></br><br></br>
                   Nguyễn Văn Long
                 </CS.CommonSubSubTitle>
               </td>
               <td colSpan={2} style={{ padding: '0px 0px 0px 60px' }}>
                 <CS.CommonSubSubTitle>
-                  Bố của <b>cô dâu:</b><br></br><br></br>
+                  Bố <b>cô dâu:</b><br></br><br></br>
                   Dương Văn Nhã
                 </CS.CommonSubSubTitle>
               </td>
@@ -103,13 +103,13 @@ function Contact() {
             <tr>
               <td colSpan={2}>
                 <CS.CommonSubSubTitle>
-                  Mẹ của <b>chú rể:</b><br></br><br></br>
+                  Mẹ <b>chú rể:</b><br></br><br></br>
                   Giáp Thị Oanh
                 </CS.CommonSubSubTitle>
               </td>
               <td colSpan={2} style={{ padding: '0px 0px 0px 60px' }}>
                 <CS.CommonSubSubTitle>
-                  Mẹ của <b>cô dâu:</b><br></br><br></br>
+                  Mẹ <b>cô dâu:</b><br></br><br></br>
                   Nguyễn Thị Nga
                 </CS.CommonSubSubTitle>
               </td>

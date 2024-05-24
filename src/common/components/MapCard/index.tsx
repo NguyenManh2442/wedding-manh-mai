@@ -113,9 +113,9 @@ function MapCard() {
       <CS.CommonBody>
         <CS.CommonTextContainer>
           <CS.CommonP>
-            <b>
+            <b style={{ color: '#6fa8dc' }}>
               Địa chỉ nhà trai:{' '}
-              <a href="https://maps.app.goo.gl/sC5vxCkaYH3zVotY7" target="_blank">
+              <a href="https://maps.app.goo.gl/sC5vxCkaYH3zVotY7" style={{ color: 'black' }} target="_blank">
                 Chản Làng - Yên Sơn - Lục Nam - Bắc Giang
               </a>
               <br></br>
@@ -124,9 +124,9 @@ function MapCard() {
         </CS.CommonTextContainer>
         <CS.CommonTextContainer>
           <CS.CommonP>
-            <b>
+            <b style={{ color: '#db7290' }}>
               Địa chỉ nhà gái:{' '}
-              <a href="https://maps.app.goo.gl/w6PZ3AzYpWwVUW6R7" target="_blank">
+              <a href="https://maps.app.goo.gl/w6PZ3AzYpWwVUW6R7" style={{ color: 'black' }} target="_blank">
                 Nội Chùa - Yên Sơn - Lục Nam - Bắc Giang
               </a>
               <br></br>
@@ -190,7 +190,7 @@ function MapCard() {
           </CS.CommonP>
         </CS.CommonTextContainer>
         <CS.CommonMargin margin="30px" />
-        <CS.CommonSubTitle>Dress code</CS.CommonSubTitle>
+        <CS.CommonSubTitle>DRESS CODE</CS.CommonSubTitle>
         <CS.CommonTextContainer>
           <CS.CommonP>
             <u>
