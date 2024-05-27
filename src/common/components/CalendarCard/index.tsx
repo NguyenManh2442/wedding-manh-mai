@@ -50,7 +50,6 @@ function CalendarCard() {
 
   return (
     <CS.CommonContainer>
-      <CS.HorizontalBar />
       <CS.CommonMargin margin="40px" />
       <CS.CommonTitle>Calendar</CS.CommonTitle>
       <CS.CommonBody>

@@ -1,5 +1,6 @@
 import * as CS from 'src/common/components/Styles';
 import * as S from './Styles';
+import MusicPlayer from "src/common/components/Music/MusicPlayer";
 
 function Invitation() {
   return (
@@ -41,6 +42,8 @@ function Invitation() {
         </CS.CommonTable>
       </CS.CommonBody>
       <CS.MainImg src="/images/studio/SYD_0487.jpg" alt="Love, love, love" />
+      <CS.CommonMargin margin="15px" />
+      <MusicPlayer />
     </CS.CommonContainer>
   );
 }

@@ -10,6 +10,7 @@ function Contact() {
 
   return (
     <CS.CommonContainer>
+      <CS.HorizontalBar />
       <CS.CommonMargin margin="30px" />
       <CS.CommonBody>
         <CS.CommonTextContainer>
