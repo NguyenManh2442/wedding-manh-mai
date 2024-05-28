@@ -6,7 +6,7 @@ import { color } from 'src/common/utils/styles';
 import CircleIcon from '../CircleIcon';
 
 function Contact() {
-  const defaultMessage = 'Chúc mừng đám cưới của Mạnh ❤ Mai!';
+  const defaultMessage = 'Chúc mừng hạnh phúc của Tiến Mạnh ❤ Sao Mai!';
 
   return (
     <CS.CommonContainer>
@@ -36,12 +36,12 @@ function Contact() {
                   <CS.CommonSubSubTitle>Liên hệ cô dâu</CS.CommonSubSubTitle>
                 </td>
                 <td style={{ padding: '0px 0px 0px 20px' }}>
-                  <a href="tel:010-2361-4112">
+                  <a href="tel:0397482241">
                     <CircleIcon Icon={PhoneIcon} color={color.brideColor} />
                   </a>
                 </td>
                 <td style={{ padding: '0px 0px 0px 10px' }}>
-                  <a href={'sms:010-2361-4112?&body=' + defaultMessage}>
+                  <a href={'sms:0397482241?&body=' + defaultMessage}>
                     <CircleIcon Icon={SmsIcon} color={color.brideColor} />
                   </a>
                 </td>
@@ -91,12 +91,12 @@ function Contact() {
                 </a>
               </td>
               <td style={{ padding: '0px 0px 0px 60px' }}>
-                <a href="tel:010-7777-6414">
+                <a href="tel:0982964161">
                   <CircleIcon Icon={PhoneIcon} color={color.brideColor} />
                 </a>
               </td>
               <td>
-                <a href={'sms:010-7777-6414?&body=' + defaultMessage}>
+                <a href={'sms:0982964161?&body=' + defaultMessage}>
                   <CircleIcon Icon={SmsIcon} color={color.brideColor} />
                 </a>
               </td>
@@ -117,22 +117,22 @@ function Contact() {
             </tr>
             <tr>
               <td>
-                <a href="tel:010-8547-0476">
+                <a href="tel:0386310938">
                   <CircleIcon Icon={PhoneIcon} color={color.groomColor} />
                 </a>
               </td>
               <td>
-                <a href={'sms:010-8547-0476?&body=' + defaultMessage}>
+                <a href={'sms:0386310938?&body=' + defaultMessage}>
                   <CircleIcon Icon={SmsIcon} color={color.groomColor} />
                 </a>
               </td>
               <td style={{ padding: '0px 0px 0px 60px' }}>
-                <a href="tel:010-3777-7118">
+                <a href="tel:0984970869">
                   <CircleIcon Icon={PhoneIcon} color={color.brideColor} />
                 </a>
               </td>
               <td>
-                <a href={'sms:010-3777-7118?&body=' + defaultMessage}>
+                <a href={'sms:0984970869?&body=' + defaultMessage}>
                   <CircleIcon Icon={SmsIcon} color={color.brideColor} />
                 </a>
               </td>

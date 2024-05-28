@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 
 import {
-  Account,
   CalendarCard,
   Contact,
   FloatingShare,
@@ -30,7 +29,6 @@ function Home() {
       <Gallery />
       <MapCard />
       <Contact />
-      {showAccount && <Account />}
       <FlowerCard />
       <GuestBook />
       <Footer />

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 export const FlowerCardTextContainer = styled.div`
   width: 270px;
-  height: 80px;
   padding: 5px 0px;
   border-radius: 20px;
   background-color: ${color.barunsonFlowerColor};
@@ -11,7 +10,6 @@ export const FlowerCardTextContainer = styled.div`
 
 export const FlowerCardImageContainer = styled.div`
   position: absolute;
-
   width: 130px;
   margin-top: -35px;
   margin-left: -15px;
@@ -31,8 +29,8 @@ export const FlowerCardPBold = styled.p`
 
 export const FlowerCardP = styled.p`
   font-size: 0.8rem;
-  margin-left: 15px;
-  margin-top: 5px;
+  margin-top: 0px;
+  padding: 5px 10px;
   line-height: 20px;
 `;
 

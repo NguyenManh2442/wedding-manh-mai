@@ -21,7 +21,6 @@ function GuestBook() {
   const [weddingPosts, setWeddingPost] = useState<WeddingPost[]>([]);
 
   useEffect(() => {
-    // https://firebase.google.com/docs/firestore/quickstart#read_data
     const dbWeddingPosts = query(
       collection(db, 'wedding-posts'),
       orderBy('timestamp', 'desc'),
@@ -45,7 +44,7 @@ function GuestBook() {
     const trimmedName = name.trimStart().trimEnd();
     const trimmedMessage = message.trimStart().trimEnd();
     if (trimmedName === '' || trimmedMessage === '') {
-      alert('이름과 내용을 채워주세요.');
+      alert('Vui lòng điền tên và nội dung của bạn.');
       return;
     }
 
