@@ -1,4 +1,6 @@
 import * as CS from 'src/common/components/Styles';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 function MapCard() {
   return (
@@ -9,9 +11,12 @@ function MapCard() {
       <CS.CommonBody>
         <CS.CommonTextContainer>
           <CS.CommonP>
-            <b style={{ color: '#6fa8dc' }}>
-              Địa chỉ nhà trai:{' '}
+            <b>
               <a href="https://maps.app.goo.gl/sC5vxCkaYH3zVotY7" style={{ color: 'black' }} target="_blank">
+                <b style={{ color: '#6fa8dc', }}>
+                  <FontAwesomeIcon icon={faLocationDot} /> Địa chỉ nhà trai:{' '}
+                </b>
+                <br></br>
                 Chản Làng - Yên Sơn - Lục Nam - Bắc Giang
               </a>
               <br></br>
@@ -21,8 +26,11 @@ function MapCard() {
         <CS.CommonTextContainer>
           <CS.CommonP>
             <b style={{ color: '#db7290' }}>
-              Địa chỉ nhà gái:{' '}
               <a href="https://maps.app.goo.gl/w6PZ3AzYpWwVUW6R7" style={{ color: 'black' }} target="_blank">
+                <b style={{ color: '#db7290' }}>
+                  <FontAwesomeIcon icon={faLocationDot} /> Địa chỉ nhà gái:{' '}
+                </b>
+                <br></br>
                 Nội Chùa - Yên Sơn - Lục Nam - Bắc Giang
               </a>
               <br></br>
