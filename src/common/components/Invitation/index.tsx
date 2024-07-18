@@ -41,7 +41,7 @@ function Invitation() {
           </tbody>
         </CS.CommonTable>
       </CS.CommonBody>
-      <CS.MainImg src="/images/studio/SYD_0487.jpg" alt="Love, love, love" />
+      <CS.MainImg src="https://drive.google.com/thumbnail?id=1gTQqopfWaDAitodXV4PWsSqQ1o_Y1Cwr&sz=w1000" alt="Love, love, love" />
       <CS.CommonMargin margin="15px" />
       <MusicPlayer />
     </CS.CommonContainer>

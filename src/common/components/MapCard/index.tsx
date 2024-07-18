@@ -58,7 +58,7 @@ function MapCard() {
             <b>(Mọi thứ đều không bắt buộc)</b>
           </CS.CommonP>
         </CS.CommonTextContainer>
-        <CS.MainImg src="/images/studio/SYD_0487.jpg" alt="Love, love, love" />
+        <CS.MainImg src="https://drive.google.com/thumbnail?id=1gTQqopfWaDAitodXV4PWsSqQ1o_Y1Cwr&sz=w1000" alt="Love, love, love" />
         {/* <iframe width="100%" height="300px" src="https://www.youtube.com/embed/F1yZONgVB5I?si=ZhZBkdtP3cWeDLgO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe> */}
         <CS.CommonMargin margin="50px" />
       </CS.CommonBody>
