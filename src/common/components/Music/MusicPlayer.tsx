@@ -40,7 +40,7 @@ export default function MusicPlayer() {
         <audio
             autoPlay={true}
             ref={audioRef}
-            src={'/music/TangNhau.mp3'}
+            src={'/music/CuoiĐi-2T-ChangC.mp3'}
         />
         <div className={styles.mobileProgress}>
             <div
