@@ -19,8 +19,10 @@ function Invitation() {
           Là chiều tà ngắm hoàng hôn phơi phới<br></br>
           Đôi mắt nhìn nhau chẳng cần nói một lời.<br></br>
           <br></br>
-          Là nụ cười giữa muôn vàn gian khó<br></br>
-          Cùng nhau xây tổ ấm mãi xanh tươi.
+          Em hỏi anh hạnh phúc là chi?<br></br>
+          Anh đáp rằng: hạnh phúc là chúng mình<br></br>
+          Là hai trái tim hòa chung nhịp đập<br></br>
+          Là cùng bên nhau đến trọn kiếp người.
         </S.InvitationBody>
         <CS.CommonTable>
           <tbody>
