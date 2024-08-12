@@ -7,7 +7,7 @@ function FlowerCard() {
       <CS.HorizontalBar />
       <CS.CommonBody>
         <CS.CommonMargin margin="20px" />
-        <CS.MainImg src="https://drive.google.com/thumbnail?id=1iWlWvyy84GYOExZ8Cg8PhYznPK3qbQk-&sz=w1000" alt="Love, love, love" />
+        <CS.MainImg src="https://drive.google.com/thumbnail?id=1TPpVR5ksHe_OO3HpKZb4PqWQFtj1C6Qt&sz=w1000" alt="Love, love, love" />
         <CS.CommonMargin margin="20px" />
         <S.FlowerCardBody>
           <S.FlowerCardTextContainer>
