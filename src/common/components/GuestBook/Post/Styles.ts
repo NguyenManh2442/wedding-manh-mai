@@ -12,7 +12,8 @@ export const PostBox = styled.div`
 
 export const PostTitle = styled.h4`
   font-size: 1.1rem;
-
+  text-align: left;
+  margin: 1rem;
   color: ${color.groomColor};
   line-height: 0rem;
 `;
