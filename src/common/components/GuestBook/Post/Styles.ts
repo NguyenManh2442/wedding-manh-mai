@@ -21,12 +21,12 @@ export const PostTitle = styled.h4`
 export const PostDate = styled.p`
   font-size: 0.5rem;
   text-align: right;
+  margin: 0.5rem;
   color: ${color.gray300};
 `;
 
 export const PostContent = styled.p`
   margin: 1rem;
-
   font-size: 0.8rem;
   text-align: left;
   color: ${color.brideColor};
