@@ -4,7 +4,7 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 import * as CS from 'src/common/components/Styles';
 
 // Define the URL of the API endpoint
-const apiUrl = 'https://api.sheetapi.rest/api/v1/sheet/lwaSpUlrv39QiKJx5Y1GV';
+const apiUrl = 'https://sheetdb.io/api/v1/i3mql8op8eazx';
 
 // Define an interface for the data structure you expect from the API
 interface ImageObject {
